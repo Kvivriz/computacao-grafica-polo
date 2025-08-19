@@ -23,9 +23,9 @@ try:
     for i, image in enumerate(images):
         image_filename = os.path.join(output_folder, f"pagina_enem_{i+1}.png")
         image.save(image_filename)
-        printf(f"pagina {i+1} salva como '{image_filename}'")
+        print(f"pagina {i+1} salva como '{image_filename}'")
 
-     printf(f"\nConversão concluida! As imagens foram salvas na pasta '{output_folder}'.")
+    print(f"\nConversão concluida! As imagens foram salvas na pasta '{output_folder}'.")
     
 except Exception as e:
     print(f"Ocorreu um erro durante a conversão:v{e}")
