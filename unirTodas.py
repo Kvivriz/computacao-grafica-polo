@@ -9,7 +9,7 @@ images_dir = 'metades-recortadas'
 all_images = []
 
 # Número total de páginas (cada página tem 2 imagens: esquerda e direita)
-num_pages = 30  # 64 imagens ÷ 2 = 32 páginas
+num_pages = 29  # 64 imagens ÷ 2 = 32 páginas
 
 # Função para extrair número da página e posição do nome do arquivo
 def get_page_number_and_position(filename):
