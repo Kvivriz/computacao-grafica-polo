@@ -3,13 +3,13 @@ import os
 import re
 
 # Diretório onde as imagens estão
-images_dir = 'metades-recortadas'
+images_dir = 'metades-recortadas1'
 
 # Lista para armazenar todas as imagens na ordem correta
 all_images = []
 
 # Número total de páginas (cada página tem 2 imagens: esquerda e direita)
-num_pages = 29  # 64 imagens ÷ 2 = 32 páginas
+num_pages = 25   # 64 imagens ÷ 2 = 32 páginas
 
 # Função para extrair número da página e posição do nome do arquivo
 def get_page_number_and_position(filename):
@@ -62,7 +62,7 @@ if all_images:
         y_offset += img.height
 
     # Salvar a imagem resultante
-    long_image.save('enem_empilhado_ordenado.png')
+    long_image.save('enem_empilhado_ordenado1.png')
     print(f"\nImagem combinada salva como 'enem_empilhado_ordenado.png'")
     print(f"Total de imagens processadas: {len(all_images)}")
     print(f"Largura máxima: {max_width}px")
