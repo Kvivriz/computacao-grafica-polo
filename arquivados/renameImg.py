@@ -41,7 +41,7 @@ def juntar_e_renomear_por_idioma():
     contadores = {
         "ingles": 1,
         "espanhol": 1, 
-        "portugues": 1
+        "portugues": 6
     }
     
     total_imagens = len(imagens)
